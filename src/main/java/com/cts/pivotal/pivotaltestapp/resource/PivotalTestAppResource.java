@@ -11,7 +11,7 @@ public class PivotalTestAppResource {
 
 	@GetMapping("/{username}")
 	public String sayHello(@PathVariable String username) {
-		return "Hello " + username + ", welcome to Pivotal Cloud Foundry!";
+		return "Hello " + username + "!!!!, welcome to Pivotal Cloud Foundry!";
 	}
 
 }
